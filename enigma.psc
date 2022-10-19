@@ -1,42 +1,53 @@
 Algoritmo enigma
 	// Integrantes: Erick Quezada Bravo, 
 	// Matias Hormazabal Norambuena, Benjamin Norambuena Navarrete
-	Definir Palabra, sub Como Caracter
-	definir long, corrimiento, u  como entero 
-	Dimension num[27]
-	num[1]=' '
-	num[2]='A'
-	num[3]='B'
-	num[4]='C'
-	num[5]='D'
-	num[6]='E'
-	num[7]='F'
-	num[8]='G'
-	num[9]='H'
-	num[10]='I'
-	num[11]='J'
-	num[12]='K'
-	num[13]='L'
-	num[14]='M'
-	num[15]='N'
-	num[16]='O'
-	num[17]='P'
-	num[18]='Q'
-	num[19]='R'
-	num[20]='S'
-	num[21]='T'
-	num[22]='U'
-	num[23]='V'
-	num[24]='W'
-	num[25]='X'
-	num[26]='Y'
-	num[27]='Z'
-	escribir " ingrese el codigo master" 
-	leer palabra 
- 
-	// ahora tengo la ultima letra que debemos comparar con la o 
-	// la o ocupa el luugar 16.
-	// revisar como asignar a cada letra un numero para introducir en u 
-	// u = ultima letra
-	
+	Definir long Como Entero
+	Definir mensaje, palabra, firma Como Caracter
+	Dimension A[27]
+	A[1]=" "
+	A[2]="A"
+	A[3]="B"
+	A[4]="C"
+	A[5]="D"
+	A[6]="E"
+	A[7]="F"
+	A[8]="G"
+	A[9]="H"
+	A[10]="I"
+	A[11]="J"
+	A[12]="K"
+	A[13]="L"
+	A[14]="M"
+	A[15]="N"
+	A[16]="O"
+	A[17]="P"
+	A[18]="Q"
+	A[19]="R"
+	A[20]="S"
+	A[21]="T"
+	A[22]="U"
+	A[23]="V"	
+	A[24]="W"
+	A[25]="X"
+	A[26]="Y"
+	A[27]="Z"
+	Escribir "ingresar firma"
+	Leer firma
+	long=Longitud(firma)
+	mientras long<>10 Hacer
+		Escribir "MI LOCO SE EQUIVOCO DE FIRMA"
+		Escribir "ingresar firma"
+		Leer firma
+		long= longitud (firma) 
+	Finmientras 
+	Escribir firma " = ERIC LILLO"
+	Escribir "ingrese el mensaje, si su mensaje contiene mas de 60 caracteres separe el mensaje o me da amsiedad"
+	Leer mensaje
+	long =longitud (mensaje)
+	Mientras long>60 Hacer
+		Escribir "mi chan ¿tiene problemas para contar? ingrese de nuevo el codigo o no trabajo"
+		Escribir "ingresar mensaje"
+		leer mensaje
+		long =longitud (mensaje)
+	FinMientras
 FinAlgoritmo
