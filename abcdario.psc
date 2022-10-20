@@ -1,5 +1,5 @@
 Algoritmo abcdario
-	// difinir los valores
+	// difinir los valores   (Profesor, este codigo lo estamos viendo por otro camino, por eso es distinto que el subido anteriormente)
 	
 	definir letra, palabra, sub, txt como caracter 
 	definir casos, long, cont Como Entero
