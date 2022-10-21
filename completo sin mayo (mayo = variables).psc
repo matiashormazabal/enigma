@@ -1,4 +1,4 @@
-Algoritmo verificador2
+Algoritmo verificador2       //esta casi listo, faltan detalles (integrantes: Erick Quezada Bravo, Matias Hormazabal Norambuena, Benjamin Norambuena Navarrete)
 	definir long , i , j, b, t, c, casos  como entero 
 	definir num1, num2, solucion como caracter
 	dimension A[27] 
