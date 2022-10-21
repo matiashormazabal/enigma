@@ -1,0 +1,43 @@
+Integrantes:
+
+Matias Hormazabal Norambuena (Dueño del perfil de Git hub)
+Erick Quezada Bravo
+Benjamin Norambuena Navarrete
+
+
+Tipos de encriptacion:
+-simetrica: En la encriptación simétrica, solo hay una clave, la que debe compartir el creador del mensaje encriptado, en este
+            todas las partes del mensaje se comunican mediante la misma clave, esta sirve para encriptar y desencriptar.
+           
+-asimetrica: En la encriptación asimétrica, existen dos claves: una de las claves se utiliza para la encriptación, y la otra
+             clave es utilizada para la desencriptación del mensaje, la clave para desencriptar es una clave privada, esta 
+             solamente la puede otorgar el creador del mensaje encriptado, y la clave de encriptacion es compartida publicamente.
+
+-hibrida: 	El sistema de cifrado híbrido usa tanto cifrado simétrico como asimétrico, Funciona mediante el uso de un cifrado de clave
+		pública para compartir una clave para el cifrado simétrico. El mensaje que se esté enviando en el momento, se cifra usando
+     	     la clave y enviándolo al destinatario. Ya que compartir una clave simétrica no es seguro, la clave usada es diferente para
+     	     cada sesión.
+							
+ Cual se uso: En el codigo se uso la clave simetrica, ya que, se usa la misma clave para encriptar y desencriptar un codigo.
+
+Metodo de cifrado cesar:
+
+El metodo cesar es un metodo de cifrado de los mas antiguos, es un cifrado monoalfabetico simple, se basa en desplazar en una cantidad "x"
+(x=cantidad de espacios a mover) algun caracter del abecedario, este metodo es considerado uno de los mas debiles de la criptografia, debido 
+a que desifrar estos mensajes es muy sencillo, pero todos los metodos de encriptacion actuales derivan de este. El metodo de cifrado fue 
+nombrado asi por el estratega militar julio cesar, que invento este metodo de cifrado lo invento durante la segunda guerra civil romana 
+(entre el 49 a.c. y 45 a.c.)
+
+
+
+Referencias
+
+https://www.biografiasyvidas.com/monografia/julio_cesar/
+https://ayudaleyprotecciondatos.es/2020/06/10/cifrado-cesar/#:~:text=Lleva%20el%20nombre%20de%20Julio,sus%20técnicas%20de%20seguridad%20mínimas.
+https://www.gnupg.org/gph/es/manual/x226.html
+https://www.cloudflare.com/es-es/learning/ssl/what-is-encryption/#:~:text=Los%20dos%20tipos%20principales%20de,como%20encriptación%20de%20clave%20pública.
+  
+ 
+
+
+
